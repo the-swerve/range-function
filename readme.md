@@ -1,5 +1,5 @@
 
-Create ranges of integers.
+Create ranges of integers in javascript.
 
 ```javascript
 range(4)
@@ -24,9 +24,9 @@ range(5, 1)
 > [5,4,3,2]
 
 range(5, 1, 'inclusive')
-> [5,4,3,2]
+> [5,4,3,2,1]
 
-// descend by 2
+// descend by a step
 range(6, 0, 2, 'inclusive')
 > [6,4,2,0]
 ```
