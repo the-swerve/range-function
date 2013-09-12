@@ -27,7 +27,7 @@ module.exports = function() {
 	var ls = [];
 
 	// descending range
-	if (start > end) {
+	if (start >= end) {
 		if (inclusive) --end;
 		for (var i = start; i > end; i -= step) {
 			ls.push(i);
@@ -35,7 +35,7 @@ module.exports = function() {
 	}
 
 	// ascending range
-	else if (start < end) {
+	else if (start <= end) {
 		if (inclusive) ++end;
 		for (var i = start; i < end; i += step) {
 			ls.push(i);

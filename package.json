@@ -1,0 +1,27 @@
+{
+  "name": "range-function",
+  "version": "0.1.1",
+  "description": "Create ranges of integers.",
+  "main": "range.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/the-swerve/range-function.git"
+  },
+  "keywords": [
+    "range",
+    "iterate",
+    "functional",
+    "repeat",
+    "times",
+    "array",
+    "list"
+  ],
+  "author": "jay r bolton <jayrbolton@gmail.com> (http://jayrbolton.com/)",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/the-swerve/range-function/issues"
+  }
+}
